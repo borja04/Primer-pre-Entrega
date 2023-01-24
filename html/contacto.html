@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukuna Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <div id="divLogo">
+                <a href="../index.html"><img id="logo" src="../img/logo.png" alt=""></a>
+            </div>
+            <div id="divUsuario">
+                <a href=""><img id="usuario" src="../img/usuario.png" alt=""></a>
+                <a href=""><img id="carrito" src="../img/carrito.png" alt=""></a>
+            </div>
+        </h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="figuras.html">Figuras</a></li>
+                <li><a href="tarjetasRegalo.html">Tarjetas de Regalo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="formulario">
+            <form>
+                <p>
+                    <label for="nombre" class="inputNombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+                <div id="botonesForm">
+                    <input type="submit" id="enviar">
+                    <input type="reset" id="reset">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="footerStyle">
+            <a href="">Quienes Somos</a>
+
+            <a href="">Preguntas Frecuntes</a>
+            <a href="">Redes</a>
+        </div>
+    </footer>
+</body>
+
+</html>

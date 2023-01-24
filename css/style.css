@@ -1,0 +1,312 @@
+body {
+    margin: 0px !important;
+    background-color:white;
+}
+
+header h1 {
+    margin: 0 !important;
+}
+
+header ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    background-color: rgba(10, 10, 10, 0.801);
+    padding: 2px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    text-align: center;
+}
+
+#logo {
+    width: 350px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#divLogo {
+    position: relative;
+    display: inline;
+    text-align: left;
+    width: auto;
+}
+
+#divUsuario {
+    position: relative;
+    margin-right: 10px;
+    left: 1350px;
+    display: inline;
+    height: auto;
+}
+
+#divUsuario a #usuario {
+    width: 50px;
+    margin: 5px;
+    margin-bottom: 35px;
+}
+
+#divUsuario a #carrito {
+    width: 50px;
+    margin: 5px;
+    margin-bottom: 35px;
+}
+
+body main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(10, 10, 10, 0.801);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#divDestacados {
+    width: 1250px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+
+#divDestacados a img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+#divDestacados a img:first-child {
+    margin-left: 10px;
+}
+
+#divOfertas a img:first-child {
+    margin-left: 10px;
+}
+#divDestacados a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(10, 10, 10, 0.801);
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #divOfertas a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(10, 10, 10, 0.801);
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #divOfertas {
+        width: 1250px;
+        height: 350px;
+        margin: auto;
+        display: flex;
+        justify-content: start;
+        text-align: center;
+    }
+    #divOfertas a img {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .footerStyle
+    {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: bold;      
+        margin-bottom: 20px;
+        margin-top: 10px;
+
+    }
+
+    .footerStyle a{
+        text-decoration: none;        
+        color: rgba(10, 10, 10, 0.801);
+        margin-right: 20px;
+    }
+
+
+
+
+
+#divFiguras  {
+    width: 1250px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+#divFiguras a img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+#divFiguras a img:first-child {
+    margin-left: 10px;
+}
+
+
+#divFiguras a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(10, 10, 10, 0.801);
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    
+  
+#divPrincipal {
+    width: 1350px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}  
+#divPrincipal img {
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+}
+#divPrincipal p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(10, 10, 10, 0.801);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+  
+#divPrincipal #precio {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formulario form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.formulario form p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(10, 10, 10, 0.801);
+    font-size: 15px;
+    font-weight: normal;
+    width: 430px;
+}
+
+.formulario form p label{
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario form p input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(10, 10, 10, 0.801);
+    font-size: 15px;
+    font-weight: normal;
+    width: 430px;
+}
+
+.formulario form p textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(10, 10, 10, 0.801);
+    font-size: 15px;
+    font-weight: normal;
+    width: 430px;
+    height: 300px;
+}
+#redCard {
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+#blackCard {
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    text-align: center;
+    
+
+}
+.aCards a {
+    font-family: Arial, Helvetica, sans-serif;
+        color: rgba(10, 10, 10, 0.801);
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: bold;
+        
+    
+}
+.aCards{
+    width: 1100px;
+    margin: auto ;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+.mapa {
+    width: 1150px;
+    height: 450px;
+    margin: auto ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+.mapa iframe {
+    margin: 30px;
+}
+
+.mapa #col2 ul{
+    color: rgba(10, 10, 10, 0.801);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 100px;
+    padding-left: 0px;
+}
+.mapa #col2 ul li{
+    list-style: none;
+}
+
+.mapa #col2 ul li img{
+    width: 30px;
+}
